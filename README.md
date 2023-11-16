@@ -1,9 +1,10 @@
 Requirements:
-PHP 8
-PostgreSQL 16
-Apache
+- PHP 8
+- PostgreSQL 16
+- Apache
 
-After cloneing, run composer install. Create the databse on your server. To set up the database structure you can either use migrations or the included /databas/eddl.sql. Don't forget to edit the .env file according your server setup. Finally create a virtualhost.
+After cloning, run composer install. Create an empty database on your server. Edit the .env file according your server setup. To set up the database structure you can either use migrations or the included /database/ddl.sql.  Finally create a virtualhost.
+
 A postman collection (personel rest api.postman_collection.json) is included for manual testing the endpoints.
 
 
